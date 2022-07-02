@@ -1,0 +1,55 @@
+*{margin: 0;padding: 0;list-style: none;font-family: 'Tai Heritage Pro', serif;color: #fff;}
+    a{text-decoration: none;color: inherit;}
+    body::-webkit-scrollbar {display: none;}
+    header{width: 100%;height:60px;background-color:#64b9b2;position:fixed;left: 0;top: 0;z-index: 99;}
+    #header_box{width: 1400px;height: 60px;margin: auto;}
+    #logo{width: 200px;height: 60px;line-height: 60px;float: left;text-align: center;}
+    #logo>img{width:160px;margin: auto;vertical-align: middle;}
+    #header_icon_box{float: right;width:200px;height: 60px;}
+    #header_icon_box>li{float: left;width:24px;line-height: 60px;margin-left:10px;}
+    #header_icon_box>li:nth-child(1){margin-left: 80px;}
+    #header_icon_box>li>img{width: 100%;vertical-align: middle;}
+    #header_menu{width:1000px;height: 60px;display: inline-block;margin: auto;text-align: center;}
+    #header_menu>li{width: 120px;height: 60px;display: inline-block;margin: 0 20px;line-height: 60px;font-weight: 400;color: #000;font-size: 18px;letter-spacing: -0.5px;}
+    /*  */
+    #main{width: 100%;height: 1000px;background-color: #64b9b2;}
+    #main_img{width: 100%;opacity: 0;}
+    /*  */
+    #main2{width: 100%;height:1800px;background-color: #64b9b2;position: relative;overflow: hidden;}
+    #main2_title{width: 1000px;height:200px;text-align: right;position: absolute;right: 0;top:60px;}
+    #main2_title>h2{color:transparent;font-size:100px;-webkit-text-stroke-width:0.5px;
+	-webkit-text-stroke-color: white;letter-spacing: -2px;font-family: 'Kdam Thmor Pro', sans-serif;}
+    #main2>img{position: absolute;}
+    #dia1{left:200px;top:300px;width:260px;}
+    #dia2{right:100px;top:600px;width: 200px;}
+    #dia3{left:300px;bottom: 0;width: 260px;z-index: 99999;}
+    #main2_box{width: 100%;height: 100%;margin-top: 200px;}
+    #main2_textbox{width: 1200px;height: 100%;margin: auto;}
+    #textbox1{width: 100%;height:600px;}
+    #box1_left{width: 800px;height: 100%;float: left;padding-left: 160px;padding-top:60px;box-sizing: border-box;}
+    #box1_left>h3{font-size: 26px;font-weight: 500;margin-top: 50px;}
+    .q{font-weight: 700;}
+    #box1_left>p{margin-top: 60px;width:500px;font-size:18px;letter-spacing: -1px;}
+    #box1_left>p>span{font-size: 20px;}
+    #box1_right{width: 400px;height: 100%;float: right;border-radius:600px 600px 0 0;overflow: hidden;position: relative;}
+    #box1_right>img{width:120%;position: absolute;left:-50px;bottom: 0;}
+    #textbox2{width: 100%;height: 300px;text-align: center;}
+    #textbox2>h3{font-size: 26px;font-weight: 500;margin-top: 50px;}
+    #textbox2>p{width: 660px;margin: auto;margin-top: 60px;}
+    #textbox3{width: 100%;height: 500px;margin-top: 100px;}
+    #box3_left{width: 400px;height: 100%;float: left;background-color: pink;position: relative;overflow: hidden;border-radius: 500px 500px 0 0;}
+    #box3_left>img{position: absolute;left: 0;top: 0;}
+    #box3_right{width: 800px;height: 100%;float: right;padding-left: 200px;box-sizing: border-box;}
+    #box3_right>h3{font-size: 26px;font-weight: 500;margin-top: 50px;}
+    #box3_right>p{width:600px;margin-top: 60px;}
+    /*  */
+    footer{width: 100%;height:100px;background-color:#fff;position: relative;z-index: 999;background-color:#64b9b2;line-height: 100px;padding: 10px 200px;font-size: 14px;}
+    footer>p{width:260px;float: left;margin-left: 200px;color: #000;}
+    #footer_menu{width:700px;float: left;margin: auto;}
+    #footer_menu>li{display: inline-block;margin-right:20px;color: #000;}
+    #lag{float: left;}
+    #lag>li{color: #000;position: relative;}
+    #lag>li>img{width:12px;vertical-align: middle;}
+    .hover_lag{width: 100px;position: absolute;text-align: center;left: 0;top:-50px;line-height: 20px;display: none;}
+    .hover_lag>li{color: #000;}
+    #lag>li:hover>.hover_lag{display: inline-block;}
